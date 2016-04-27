@@ -1,0 +1,8 @@
+
+Utgå ifrån bilden bildgalleriet_test.psd och gör så korrekt css och html som möjligt.
+
+Resultatet ska vara så likt originalet som möjligt i chrome, firefox och IE10, IE11.
+
+* Alla typsnitt ska vara Arial och i pixlar.
+* Bilderna i bildgalleriet kan ersättas med grå rutor 120x80 px.
+* Hela sidan "content" får inte vara större än 950 px centrerat på sidan.

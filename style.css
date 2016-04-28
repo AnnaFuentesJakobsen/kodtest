@@ -8,7 +8,7 @@
 	letter-spacing: 1px;
 }
 body {
-	margin: 80px;
+	margin: 100px;
 }
 h1 {
 	font-size: 40px;
@@ -20,6 +20,19 @@ ul {
 a {
 	color: #868686;
 	text-decoration: none;
+}
+
+/* --------------------
+	Header
+-------------------- */
+.logo img {
+	padding-bottom: 20px;
+}
+.logo hr {
+	border: none;
+	height: 5px;
+	color: #96bde1;
+	background-color: #96bde1;
 }
 
 /* --------------------
@@ -63,11 +76,17 @@ a {
 	padding-top: 5px;
 	font-size: 10px;
 }
-.footer-hr a {
+.footer-list a {
 	font-size: 10px;
 	text-transform: uppercase;
 	display: flex;
 	justify-content: flex-end;
+}
+.footer-list hr {
+	height: 2px;
+	border: none;
+	color: #0059a1;
+	background-color: #0059a1;
 }
 
 .footer-links ul {

@@ -72,8 +72,11 @@ td {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   text-transform: uppercase;
-  margin: 0;
   border: none;
+}
+.wrapper {
+	display: inline;
+	margin-left: 175px;
 }
 
 .menu hr {
@@ -81,28 +84,37 @@ td {
 	height: 5px;
 	color: #b760a9;
 	background-color: #b760a9;
-	margin-top: -5px;
+	margin-top: -2px;
+	
 }
 .rectangle {
-	width: 100px;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 150px;
 	height: 30px;
 	background-color: #b760a9;
 }
 .triangle {
+	display: inline-block;
 	width: 30px;
 	height: 30px;
 	background: #b760a9;
 	-webkit-clip-path: polygon(0 100%, 0 0, 100% 100%);
 	clip-path: polygon(0 100%, 0 0, 100% 100%);
+	margin-bottom: -20px;
 }
-
-
 
 .gallery {
 	display: flex;
 	justify-content: center;
 	background-color: #66ffff;
 	padding: 20px;
+}
+
+.search h5 {
+	text-transform: uppercase;
 }
 
 /* --------------------

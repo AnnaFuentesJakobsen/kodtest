@@ -1,12 +1,4 @@
 
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-
-ctx.fillStyle = "#b760a9";
-ctx.fillRect(0, 120,100, 30);
-
-
-
 var myTable = document.getElementById("myTable");
 
 

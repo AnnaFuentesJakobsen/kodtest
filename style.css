@@ -17,10 +17,6 @@ ul {
 	padding: 0;
 	list-style: none;
 }
-a {
-	color: #868686;
-	text-decoration: none;
-}
 
 /* --------------------
 	Header
@@ -44,15 +40,7 @@ a {
 	Main
 -------------------- */
 
-table { 
-	border: none;
-	border-width: 0;
-	margin: 0;
-}
 td {
-	border: none;
-	border-width: 2px;
-	font-size: 2em;
 	width: 120px;
 	height: 80px;
 	background-color: #7b7b7b;
@@ -73,10 +61,12 @@ td {
   text-decoration: none;
   text-transform: uppercase;
   border: none;
+  display: inline;
+  float: right;
+
 }
 .wrapper {
-	display: inline;
-	margin-left: 175px;
+
 }
 
 .menu hr {
@@ -84,9 +74,8 @@ td {
 	height: 5px;
 	color: #b760a9;
 	background-color: #b760a9;
-	margin-top: -2px;
-	
 }
+
 .rectangle {
 	color: #fff;
 	font-size: 12px;
@@ -94,16 +83,21 @@ td {
 	display: inline-block;
 	width: 150px;
 	height: 30px;
-	background-color: #b760a9;
+	background-color: #b9b8b8;
+	
 }
 .triangle {
 	display: inline-block;
 	width: 30px;
 	height: 30px;
-	background: #b760a9;
+	background-color: #b9b8b8;
 	-webkit-clip-path: polygon(0 100%, 0 0, 100% 100%);
 	clip-path: polygon(0 100%, 0 0, 100% 100%);
-	margin-bottom: -20px;
+	margin-bottom: -10px;
+	
+}
+.rectangle:first-child, .triangle:nth-child(2) {
+	background-color: #b760a9;
 }
 
 .gallery {
@@ -112,9 +106,53 @@ td {
 	background-color: #66ffff;
 	padding: 20px;
 }
-
-.search h5 {
+.search h4 {
 	text-transform: uppercase;
+	display: inline-block;
+}
+.search h5 {
+	display: inline;
+	padding-left: 10px;	
+}
+.option-one {
+	background: url(icons/direction.png) no-repeat right;
+
+}
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	background: url(icons/direction.png) no-repeat right;
+	border-radius: 0;
+	padding: 5px;
+}
+.option-one {
+	width: 110px;
+	background-position: 85px 4px;
+}
+.option-two {
+	width: 180px;
+	background-position: 150px 4px;
+}
+
+.tags p {
+	display: inline;
+}
+
+section.tags {
+	width: 580px;
+}
+.tags a {
+	font-size: 12px;
+}
+section.share {
+
+}
+.share {
+	display: flex;
+	justify-content: flex-end;
 }
 
 /* --------------------

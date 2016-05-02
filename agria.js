@@ -1,6 +1,4 @@
-
 var myTable = document.getElementById("myTable");
-
 
 function makeRowsAndColumns() {
 	for(var i = 1; i < 5; i++){
@@ -33,3 +31,4 @@ function setColor(id){
 		rows.style.color = "grey";
 	}
 }
+

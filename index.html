@@ -18,24 +18,34 @@
 	
 </header>
 
+<!-- Main content -->
+<!-- Gallery -->
+
 <main>
+
 	<h1>Agria bildgalleri</h1>
 	<div class="wrapper">
 		<button class="btn">+ Lägg till din bild</button>
 	</div>
 	<section class="menu">
-		<div class="rectangle">Senaste bilderna</div><div class="triangle"></div>
-		<div class="rectangle">Flest hjärtan<img src="icons/heart.png"></div><div class="triangle"></div>
-		<div class="rectangle">Mest visade<img src="icons/eye.png"></div><div class="triangle"></div>
-					<hr>
+		<div class="rectangle"><p>Senaste bilderna</p></div><div class="triangle"></div>
+		<div class="rectangle"><p>Flest hjärtan</p></div><div class="triangle"></div>
+		<div class="rectangle"><p>Mest visade</p></div><div class="triangle"></div>
+		<hr>
 	</section>
 
-
-
-
-	<section class="gallery">
+<section class="gallery"></section>
+	<div class="direction-back"></div>
+	<div class="pictures">
 		<table id="myTable"></table>
-	</section>
+	</div>
+	<div class="direction-forward"></div>
+</section>
+<div class="pages">
+	<img src="icons/small-arrow2.png"> <p> Sida 1 av 718 </p> <img src="icons/small-arrow1.png">
+</div>
+<!-- Search pictures -->
+<section id="gallery-search">
 
 	<section class="search">
 		<h4>Sök bilder</h4><h5>Nu 20173 bilder</h5>
@@ -51,16 +61,18 @@
 		<section class="share">
 		<img src="icons/square.png"><a href="#">Share</a> | <img src="icons/facebook.png"><img src="icons/linkedin.png"><img src="icons/google.png"><img src="icons/tumblr.png">
 	</section>
+
+	<!-- Tags -->
 	<section class="tags">
 		<p>Taggar: </p><a href="#">Utställning (234)</a> <a href="#">Valpar (456)</a> <a href="#">Lek (423)</a> <a href="#">Tik (2300)</a> <a href="#">Hane (245)</a> <a href="#">Sommar (456)</a> <a href="#">Vinter (432)</a> <a href="#">Bad (2300)</a>
 	</section>
 
-
+</section>
 
 </main>
 
 <footer>
-
+<!-- Adress -->
 	<section class="adress">
 		<h4>Agria Djurförsäkring</h4>
 		<ul>
@@ -71,7 +83,7 @@
 			<li>- Öppettider: 08:00-20:00</li>
 		</ul>
 	</section>
-
+<!-- Links -->
 <div class="container">
 	<section class="contact">
 		<h5>Kontakta oss</h5>	
@@ -150,7 +162,7 @@
 </div>
 
 <section class="footer-list">
-	<a href="#">Agria A-Ö</a>
+	<a href="#">Agria A-Ö<img src="icons/direction.png"></a>
 	<hr>
 </section>
 
@@ -168,5 +180,6 @@
 </div>
 
 </body>
+<!-- JavaScript -->
 <script type="text/javascript" src="agria.js"></script>
 </html>

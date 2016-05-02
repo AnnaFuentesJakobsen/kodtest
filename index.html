@@ -6,27 +6,25 @@
 	
 	<!-- Custom Style Sheet -->
 	<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
 <div id="content">
 
+<!-- HEADER -->
 <header>
 	<section class="logo">
 		<img src="logo.png">
 		<hr>
 	</section>
-	
 </header>
 
-<!-- Main content -->
-<!-- Gallery -->
 
 <main>
+<!-- Menu -->
 
 	<h1>Agria bildgalleri</h1>
-	<div class="wrapper">
-		<button class="btn">+ Lägg till din bild</button>
-	</div>
+	<button class="btn">+ Lägg till din bild</button>
 	<section class="menu">
 		<div class="rectangle"><p>Senaste bilderna</p></div><div class="triangle"></div>
 		<div class="rectangle"><p>Flest hjärtan</p></div><div class="triangle"></div>
@@ -34,44 +32,49 @@
 		<hr>
 	</section>
 
-<section class="gallery"></section>
-	<div class="direction-back"></div>
-	<div class="pictures">
-		<table id="myTable"></table>
+<!-- Gallery -->
+
+	<section class="gallery"></section>
+		<div class="direction-back"></div>
+		<div class="pictures">
+			<table id="myTable"></table>
+		</div>
+		<div class="direction-forward"></div>
+	</section>
+
+	<!-- Gallery Pages -->
+
+	<div class="pages">
+		<img src="icons/small-arrow2.png"><p>Sida 1 av 718</p><img src="icons/small-arrow1.png">
 	</div>
-	<div class="direction-forward"></div>
-</section>
-<div class="pages">
-	<img src="icons/small-arrow2.png"> <p> Sida 1 av 718 </p> <img src="icons/small-arrow1.png">
-</div>
-<!-- Search pictures -->
-<section id="gallery-search">
 
-	<section class="search">
-		<h4>Sök bilder</h4><h5>Nu 20173 bilder</h5>
-	</section>
-	<section class="animal-options">
-		<select class="option-one">
-			<option value="animal-kind">Välj djurslag</option>
-		</select>
-		<select class="option-two">
-			<option value="animal-race">Välj ras(antal)</option>
-		</select>
-	</section>
-		<section class="share">
-		<img src="icons/square.png"><a href="#">Share</a> | <img src="icons/facebook.png"><img src="icons/linkedin.png"><img src="icons/google.png"><img src="icons/tumblr.png">
-	</section>
+	<!-- Search for pictures -->
+	<section id="gallery-search">
+		<section class="search">
+			<h4>Sök bilder</h4><h5>Nu 20173 bilder</h5>
+		</section>
+		<section class="animal-options">
+			<select class="option-one">
+				<option value="animal-kind">Välj djurslag</option>
+			</select>
+			<select class="option-two">
+				<option value="animal-race">Välj ras(antal)</option>
+			</select>
+		</section>
+			<section class="share">
+			<img src="icons/square.png"><a href="#">Share</a> | <img src="icons/facebook.png"><img src="icons/linkedin.png"><img src="icons/google.png"><img src="icons/tumblr.png">
+		</section>
 
-	<!-- Tags -->
-	<section class="tags">
-		<p>Taggar: </p><a href="#">Utställning (234)</a> <a href="#">Valpar (456)</a> <a href="#">Lek (423)</a> <a href="#">Tik (2300)</a> <a href="#">Hane (245)</a> <a href="#">Sommar (456)</a> <a href="#">Vinter (432)</a> <a href="#">Bad (2300)</a>
+	<!-- Animal Tags -->
+		<section class="tags">
+			<p>Taggar: </p><a href="#">Utställning (234)</a> <a href="#">Valpar (456)</a> <a href="#">Lek (423)</a> <a href="#">Tik (2300)</a> <a href="#">Hane (245)</a> <a href="#">Sommar (456)</a> <a href="#">Vinter (432)</a> <a href="#">Bad (2300)</a>
+		</section>
 	</section>
-
-</section>
 
 </main>
 
 <footer>
+
 <!-- Adress -->
 	<section class="adress">
 		<h4>Agria Djurförsäkring</h4>
@@ -83,103 +86,107 @@
 			<li>- Öppettider: 08:00-20:00</li>
 		</ul>
 	</section>
-<!-- Links -->
-<div class="container">
-	<section class="contact">
-		<h5>Kontakta oss</h5>	
-		<ul>
-			<li><a href="#">Chatta med kundcenter</a></li>
-			<li><a href="#">Ditt närmaste ombud</a></li>
-			<li><a href="#">Vi ringer upp dig</a></li>
-			<li><a href="#">Fråga KC</a></li>
-			<li><a href="#">Tyck till om oss</a></li>
-		</ul>
-	</section>
-	<section class="work">
-		<h5>Jobba på Agria</h5>
-		<ul>
-			<li><a href="#">Lediga tjänster</a></li>
-			<li><a href="#">Arbetsmiljö</a></li>
-			<li><a href="#">Agrias hundkontor</a></li>
-		</ul>
-	</section>
-	<section class="press">
-		<h5>Press</h5>
-		<ul>
-			<li><a href="#">Presskontakt</a></li>
-			<li><a href="#">Pressmeddelanden</a></li>
-			<li><a href="#">Pressbilder</a></li>
-		</ul>
-	</section>
-	<section class="stats">
-		<h5>Statistik</h5>
-		<ul>
-			<li><a href="#">Agria Breed Profiles</a></li>
-			<li><a href="#">Skadestatistik</a></li>
-		</ul>
-	</section>
-	<section class="vet">
-		<h5>Veterinär</h5>
-		<ul>
-			<li><a href="#">Agrias veterinärer</a></li>
-			<li><a href="#">Telefonveterinären</a></li>
-			<li><a href="#">Forskningsfonden</a></li>
-		</ul>
-	</section>
-	<section class="scholarships">
-		<h5>Stipendier</h5>
-		<ul>
-			<li><a href="#">Djuren Hjälte</a></li>
-			<li><a href="#">Agrias Ponnyryttare</a></li>
-			<li><a href="#">Agrias Juniorryttare</a></li>
-			<li><a href="#">Agrias Young Rider</a></li>
-		</ul>
-	</section>
-	<section class="payment">
-		<h5>Betalning</h5>
-		<ul>
-			<li><a href="#">Betalningsinfo</a></li>
-			<li><a href="#">Ansök om autogiro</a></li>
-		</ul>
-	</section>
-	<section class="follow">
-		<h5>Följ Agria</h5>
-		<ul>
-			<li><a href="#">Nyhetsbrev</a></li>
-			<li><a href="#">Bloggar</a></li>
-			<li><a href="#">Facebook</a></li>
-			<li><a href="#">Twitter</a></li>
-		</ul>
-	</section>
-	<section class="kids">
-		<h5>Barnhörnan</h5>
-		<ul>
-			<li><a href="#">Spel</a></li>
-			<li><a href="#">Pussel</a></li>
-			<li><a href="#">Forum</a></li>
-		</ul>
-	</section>
-</div>
 
-<section class="footer-list">
-	<a href="#">Agria A-Ö<img src="icons/direction.png"></a>
-	<hr>
-</section>
+<!-- Page Links -->
+	<div class="container">
+		<section class="contact">
+			<h5>Kontakta oss</h5>	
+			<ul>
+				<li><a href="#">Chatta med kundcenter</a></li>
+				<li><a href="#">Ditt närmaste ombud</a></li>
+				<li><a href="#">Vi ringer upp dig</a></li>
+				<li><a href="#">Fråga KC</a></li>
+				<li><a href="#">Tyck till om oss</a></li>
+			</ul>
+		</section>
+		<section class="work">
+			<h5>Jobba på Agria</h5>
+			<ul>
+				<li><a href="#">Lediga tjänster</a></li>
+				<li><a href="#">Arbetsmiljö</a></li>
+				<li><a href="#">Agrias hundkontor</a></li>
+			</ul>
+		</section>
+		<section class="press">
+			<h5>Press</h5>
+			<ul>
+				<li><a href="#">Presskontakt</a></li>
+				<li><a href="#">Pressmeddelanden</a></li>
+				<li><a href="#">Pressbilder</a></li>
+			</ul>
+		</section>
+		<section class="stats">
+			<h5>Statistik</h5>
+			<ul>
+				<li><a href="#">Agria Breed Profiles</a></li>
+				<li><a href="#">Skadestatistik</a></li>
+			</ul>
+		</section>
+		<section class="vet">
+			<h5>Veterinär</h5>
+			<ul>
+				<li><a href="#">Agrias veterinärer</a></li>
+				<li><a href="#">Telefonveterinären</a></li>
+				<li><a href="#">Forskningsfonden</a></li>
+			</ul>
+		</section>
+		<section class="scholarships">
+			<h5>Stipendier</h5>
+			<ul>
+				<li><a href="#">Djuren Hjälte</a></li>
+				<li><a href="#">Agrias Ponnyryttare</a></li>
+				<li><a href="#">Agrias Juniorryttare</a></li>
+				<li><a href="#">Agrias Young Rider</a></li>
+			</ul>
+		</section>
+		<section class="payment">
+			<h5>Betalning</h5>
+			<ul>
+				<li><a href="#">Betalningsinfo</a></li>
+				<li><a href="#">Ansök om autogiro</a></li>
+			</ul>
+		</section>
+		<section class="follow">
+			<h5>Följ Agria</h5>
+			<ul>
+				<li><a href="#">Nyhetsbrev</a></li>
+				<li><a href="#">Bloggar</a></li>
+				<li><a href="#">Facebook</a></li>
+				<li><a href="#">Twitter</a></li>
+			</ul>
+		</section>
+		<section class="kids">
+			<h5>Barnhörnan</h5>
+			<ul>
+				<li><a href="#">Spel</a></li>
+				<li><a href="#">Pussel</a></li>
+				<li><a href="#">Forum</a></li>
+			</ul>
+		</section>
+	</div>
 
-<section class="footer-links">
-	<ul>
-		<li><a href="#">Om Agria</a></li>
-		<li><a href="#">Agria International</a></li>
-		<li><a href="#">Samarbetspartners</a></li>
-		<li><a href="#">Kontakta oss</a></li>
-		<li><a href="#">Cookies & Pul</a></li>
-	</ul>
-</section>
+	<section class="footer-list">
+		<a href="#">Agria A-Ö<img src="icons/direction.png"></a>
+		<hr>
+	</section>
+
+<!-- Footer Links -->
+
+	<section class="footer-links">
+		<ul>
+			<li><a href="#">Om Agria</a></li>
+			<li><a href="#">Agria International</a></li>
+			<li><a href="#">Samarbetspartners</a></li>
+			<li><a href="#">Kontakta oss</a></li>
+			<li><a href="#">Cookies & Pul</a></li>
+		</ul>
+		</section>
 
 </footer>
-</div>
 
+</div>
 </body>
+
 <!-- JavaScript -->
 <script type="text/javascript" src="agria.js"></script>
 </html>
